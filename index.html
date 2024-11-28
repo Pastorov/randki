@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jak Nie Randkować</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Randkowy Blog</div>
+        <ul class="nav-links">
+            <li><a href="#about">O Blogu</a></li>
+            <li><a href="#tips">Porady</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="hero">
+        <h1>Jak NIE randkować</h1>
+        <p>Poradnik, jak unikać typowych wpadek na randkach!</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>O Blogu</h2>
+        <p>Naszym celem jest dostarczenie zabawnych, ale przydatnych porad, które pomogą Ci uniknąć najczęstszych błędów podczas randkowania online.</p>
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips" class="section tips">
+        <h2>Porady</h2>
+        <div class="tip">
+            <img src="https://media.discordapp.net/attachments/1276112813928087616/1311675954690785330/oks.PNG?ex=6749b8ed&is=6748676d&hm=3aa9dcdf9811a139ddbaa4fcf566446d4e313cf4a31c3090c9387a70a10f2a6d&=&format=webp&quality=lossless" alt="Nieodpowiednie zdjęcie profilowe">
+            <div>
+                <h3>1. Nie używaj zdjęć grupowych</h3>
+                <p>Twoi potencjalni partnerzy mogą się zastanawiać, kim jesteś w tłumie.</p>
+            </div>
+        </div>
+        <div class="tip">
+            <img src="https://media.discordapp.net/attachments/1276112813928087616/1311675971212017696/happymarcin.PNG?ex=6749b8f1&is=67486771&hm=56ec6c2d7376209abf1a7e2318a203b01402500617f0fbd2f0dc24b0cfff6a29&=&format=webp&quality=lossless" alt="Selfie w lustrze">
+            <div>
+                <h3>2. Selfie w łazience? Nie!</h3>
+                <p>Selfie w lustrze często wygląda niechlujnie i może sprawić wrażenie braku wysiłku.</p>
+            </div>
+        </div>
+        <div class="tip">
+            <img src="https://media.discordapp.net/attachments/1276112813928087616/1311676031752605767/nowymarcin.PNG?ex=6749b8ff&is=6748677f&hm=c69a0bc7f1bfd205217da2d142e56be6a06ac083e8edd76f3937c32ad0771e05&=&format=webp&quality=lossless" alt="Filtry na zdjęciach">
+            <div>
+                <h3>3. Unikaj nadmiernych filtrów</h3>
+                <p>Naturalne zdjęcia są bardziej atrakcyjne niż te pełne filtrów.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+<section id="about-me" class="section about-me">
+    <h2>O Mnie</h2>
+    <div class="about-content">
+        <div class="about-text">
+            <p>Cześć! Mam na imię Marcin i od lat pomagam ludziom unikać wpadek na randkach online. Moją misją jest sprawić, by Twoje randkowe przygody były jak najbardziej udane.</p>
+        </div>
+        <div class="about-video">
+            <video controls>
+                <source src="ice_video_20241127-091012.webm" type="video/mp4">
+                Twoja przeglądarka nie obsługuje wideo. Spróbuj pobrać plik.
+            </video>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Kontakt</h2>
+        <form id="contact-form">
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
